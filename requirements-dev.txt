@@ -1,4 +1,4 @@
- astroid==2.3.3
+astroid==2.3.3
 entrypoints==0.3
 flake8==3.7.9
 isort==4.3.21
