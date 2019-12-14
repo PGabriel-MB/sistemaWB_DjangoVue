@@ -1,5 +1,6 @@
 import requests
 
+
 def buscar_avatar(nome):
     '''
     - acompanhamneto do curso Renzo Python Pro - 
