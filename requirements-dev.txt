@@ -11,4 +11,4 @@ pylint==2.4.4
 six==1.13.0
 typed-ast==1.4.0
 wrapt==1.11.2
--r requirementes.txt
+-r requirements.txt
