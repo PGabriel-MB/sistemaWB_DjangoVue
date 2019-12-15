@@ -1,4 +1,8 @@
-[![Build Status](https://www.travis-ci.org/PGabriel-MB/sistemaWB_DjangoVue.svg?branch=master)](https://www.travis-ci.org/PGabriel-MB/sistemaWB_DjangoVue) [![Build Status](https://www.travis-ci.org/PGabriel-MB/sistemaWB_DjangoVue.svg?branch=master)](https://www.travis-ci.org/PGabriel-MB/sistemaWB_DjangoVue)
+[![Build Status](https://www.travis-ci.org/PGabriel-MB/sistemaWB_DjangoVue.svg?branch=master)](https://www.travis-ci.org/PGabriel-MB/sistemaWB_DjangoVue) 
+[![Build Status](https://www.travis-ci.org/PGabriel-MB/sistemaWB_DjangoVue.svg?branch=master)](https://www.travis-ci.org/PGabriel-MB/sistemaWB_DjangoVue) 
+[![codecov](https://codecov.io/gh/PGabriel-MB/sistemaWB_DjangoVue/branch/master/graph/badge.svg)](https://codecov.io/gh/PGabriel-MB/sistemaWB_DjangoVue)
+
+
 
 # Sistema World Beauty
 ## Baseado em um exercício proposto em sala de aula na matéria de Orientação a Objetos em Java

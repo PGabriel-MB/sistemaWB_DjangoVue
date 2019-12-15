@@ -2,7 +2,9 @@ language: python
 python:
   - 3.6
 install:
-  - pip install -r requirements-dev.txt
+  - pip install -r requirements-dev.txt codecov
 script:
   - flake8
-  - pytest testeRenzo/tests/
+  - pytest testeRenzo/tests/ --cov=testeRenzo
+after_success:
+  - codecov
