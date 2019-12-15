@@ -1,5 +1,5 @@
 [![Build Status](https://www.travis-ci.org/PGabriel-MB/sistemaWB_DjangoVue.svg?branch=master)](https://www.travis-ci.org/PGabriel-MB/sistemaWB_DjangoVue) 
-[![Build Status](https://www.travis-ci.org/PGabriel-MB/sistemaWB_DjangoVue.svg?branch=master)](https://www.travis-ci.org/PGabriel-MB/sistemaWB_DjangoVue) 
+[![Updates](https://pyup.io/repos/github/PGabriel-MB/sistemaWB_DjangoVue/shield.svg)](https://pyup.io/repos/github/PGabriel-MB/sistemaWB_DjangoVue/)
 [![codecov](https://codecov.io/gh/PGabriel-MB/sistemaWB_DjangoVue/branch/master/graph/badge.svg)](https://codecov.io/gh/PGabriel-MB/sistemaWB_DjangoVue)
 
 
