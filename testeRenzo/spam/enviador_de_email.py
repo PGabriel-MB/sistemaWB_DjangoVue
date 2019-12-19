@@ -1,4 +1,4 @@
 class Enviador:
 
     def enviar(self, remetente, destinatario, assunto, corpo):
-        return 'pablogrbarbosa@gmail.com'
+        return remetente
