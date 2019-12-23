@@ -10,10 +10,10 @@ pylint==2.4.4
 six==1.13.0
 typed-ast==1.4.0
 wrapt==1.11.2
-more-itertools==4.0.0
+more-itertools==8.0.2
 attrs==17.4.0
 py==1.8.0
-pyparsing==2.0.2
+pyparsing==2.4.5
 zipp==0.5
 pytest==5.3.2
 packaging==19.2
