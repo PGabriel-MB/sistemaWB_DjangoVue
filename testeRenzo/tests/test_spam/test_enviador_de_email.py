@@ -2,6 +2,7 @@ from spam.enviador_de_email import Enviador
 from spam.enviador_de_email import EmailInvalido
 import pytest
 
+
 def test_criar_enviador_email():
     enviador = Enviador()
     assert enviador is not None
@@ -9,7 +10,7 @@ def test_criar_enviador_email():
 
 @pytest.mark.parametrize(
     'destinatario',
-    ['foo@bar.com.br','pablogrbarbosa@gmail.com' ]
+    ['foo@bar.com.br', 'pablogrbarbosa@gmail.com']
 )
 def test_remetente(destinatario):
     enviador = Enviador()
@@ -21,17 +22,17 @@ def test_remetente(destinatario):
     )
     assert resultado in resultado
 
+
 @pytest.mark.parametrize(
     'remetente',
-    ['','pablo' ]
+    ['', 'pablo']
 )
 def test_remetente_invalido(remetente):
     enviador = Enviador()
     with pytest.raises(EmailInvalido):
-        resultado = enviador.enviar(
+        enviador.enviar(
             remetente,
             'alchepablomist@gmail.com',
             'Teste de remetente - Python Pro',
             'Primeiro teste de remetente imaginário'
         )
-    #assert resultado in resultado
