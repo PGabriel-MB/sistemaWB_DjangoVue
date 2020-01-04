@@ -1,3 +1,7 @@
+from spam.db import Conexao
+from spam.modelos import Usuario
+
+
 def test_salvar_usuario():
     conexao = Conexao()
     sessao = conexao.gerar_sessao()
@@ -9,6 +13,7 @@ def test_salvar_usuario():
     conexao.fechar()
 
 
+'''
 def test_listar_usuario():
     conexao = Conexao()
     sessao = conexao.gerar_sessao()
@@ -19,3 +24,4 @@ def test_listar_usuario():
     sessao.roll_back()
     sessao.fechar()
     conexao.fechar()
+'''
