@@ -1,3 +1,6 @@
 #igonring de VirtualEnv Folder
 myenv/
 .vscode/
+
+#Environment
+.env
