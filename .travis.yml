@@ -6,7 +6,6 @@ install:
   - cp contrib/env-sample .env
 script:
   - flake8 sistemaWB/ --ignore=E501
-  #- python manage.py runserver
   - pytest sistemaWB/ --cov=sistemaWB
 after_success:
   - codecov
