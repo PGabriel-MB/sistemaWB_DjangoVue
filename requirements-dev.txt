@@ -20,4 +20,5 @@ packaging==20.3
 pluggy==0.13.1
 coverage==5.1
 pytest-cov==2.8.1
+Collectfast==2.1.0
 -r requirements.txt
