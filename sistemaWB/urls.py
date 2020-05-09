@@ -19,6 +19,8 @@ from sistemaWB.base.views import home
 from django.conf.urls.static import static
 from django.conf import settings
 
+
+# Eu crieo q agora vai
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home)
