@@ -1,6 +1,7 @@
 #igonring de VirtualEnv Folder
 myenv/
 .vscode/
+__pycache__/
 
 #Environment
 .env
