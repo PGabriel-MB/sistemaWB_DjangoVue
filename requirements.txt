@@ -17,3 +17,4 @@ Django==3.1.2
 python-decouple==3.3
 psycopg2-binary==2.8.6
 dj-database-url==0.5.0
+whitenoise==5.2.0
