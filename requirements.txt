@@ -6,7 +6,7 @@ idna==2.10
 lazy-object-proxy==1.5.1
 mccabe==0.6.1
 pylint==2.6.0
-requests==2.24.0
+requests==2.25.1
 six==1.15.0
 typed-ast==1.4.1
 urllib3==1.25.11
